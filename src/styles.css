@@ -129,3 +129,36 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+
+.education-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.education-block {
+  margin-bottom: 15px;
+}
+
+.degree, .period {
+  font-style: italic;
+}
+
+.modules {
+  list-style-type: none;
+  padding: 0;
+}
+
+.module-name {
+  font-weight: bold;
+}
+
+.grade {
+  float: right;
+  font-weight: bold;
+}
+
+/* You can add classes for specific grades to change the color accordingly */
+.grade-Aplus { color: #4CAF50; }
+.grade-A { color: #8BC34A; }
+.grade-Aplus { color: #CDDC39; }
